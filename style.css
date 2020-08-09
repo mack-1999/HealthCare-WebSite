@@ -62,8 +62,8 @@ html,body{
     height: 100vh;
 }
 
-.landingText{
-    font-size: 6vw;
+.landingText h1{
+    font-size: 4vw;
     margin: 0 !important;
 }
 
@@ -357,6 +357,7 @@ li span{
         font-size: 6vw;
         margin-top: 10px;
         margin-bottom: 14px;
+        padding-right: 220px;
     }
 
     .nav .links a{
@@ -380,7 +381,7 @@ li span{
     }
 
     .landingText h3{
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .landingText .btn{
@@ -388,7 +389,7 @@ li span{
     }
 
     .landingText .btn a{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .landingImage img{
@@ -402,8 +403,6 @@ li span{
         padding: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
 
     .aboutText{
@@ -427,7 +426,7 @@ li span{
     }
 
     li p{
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
@@ -456,6 +455,22 @@ li span{
         margin-bottom: 60px;
     }
 
+    
+.infoCards .one .cardoneImg{
+    top: -50px;
+    right: -10px;
+}
+
+.infoCards .two .cardtwoImg{
+    top: -50px;
+    right: -10px;
+}
+
+.infoCards .three .cardthreeImg{
+    top: -50px;
+    right: -10px;
+}
+
     /* Banner Section */
 
     .banner{
@@ -480,7 +495,7 @@ li span{
     }
 
     .bannerText .apple img{
-        height: 36px;
+        height: 36.5px;
     }
 
     .bannerImg img{
